@@ -1,3 +1,9 @@
+// * pages
+import Login from "./pages/Login";
+
+
+
+      
 
 import './App.css';
 import Header from './components/Header';
@@ -9,6 +15,7 @@ import UserDetails from './components/UserDetails';
 function App() {
   return (
     <div className="app">
+    <Login />
       <Header/>
       <div className='app-share'>
       <Sidebar/>
