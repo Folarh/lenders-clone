@@ -1,0 +1,43 @@
+.sidebarOptions{
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    
+}
+
+.sidebarOptions-icon{
+    color: #606060;
+    font-size: large !important;
+
+}
+.sidebarOptions-title{
+    flex: 1;
+    margin-left: 20px;
+    font-weight: 500;
+    font-size: 18px;
+}
+.sidebarOptionss:hover{
+    background-color: lightgray;
+    cursor: pointer;
+}
+
+.sidebarOptions:hover >.sidebarOptions-icon{
+    color: #57bdcf; 
+    
+}
+
+.sidebarOptions:hover >.sidebarOptions-title{
+    font-weight: bold;
+}
+
+.sidebarOptions.selected{
+    background-color:  #759ba1; 
+    border-left: 2px solid red;
+}
+
+.sidebarOptions.selected > .sidebarOptions-icon{
+    color: grey
+}
+.sidebarOptions.selected> .sidebarOptions-title{
+    font-weight: bold;
+}
