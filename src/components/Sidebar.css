@@ -1,0 +1,10 @@
+.sidebar{
+    display: flex;
+    flex-direction: column;
+    flex: 0.2;
+    cursor: pointer
+    
+}
+.switch{
+    align-items: center;
+}
