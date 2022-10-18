@@ -1,10 +1,13 @@
+// * pages
+import Login from "./pages/Login";
 
-import './App.css';
+// *style
+import "./App.css";
 
 function App() {
   return (
     <div className="App">
-      OUR PROJECT
+      <Login />
     </div>
   );
 }
