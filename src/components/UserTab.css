@@ -1,0 +1,12 @@
+table{
+    width: 100%;
+    overflow-x: auto;
+   
+}
+
+th, td {
+    border-bottom: 1px solid grey;
+    padding: 15px;
+    text-align: left;
+    color: grey;
+}

@@ -1,5 +1,5 @@
 // * pages
-import Login from "./pages/Login";
+// import Login from "./pages/Login";
 
 
 
@@ -15,7 +15,7 @@ import UserDetails from './components/UserDetails';
 function App() {
   return (
     <div className="app">
-    <Login />
+    {/* <Login /> */}
       <Header/>
       <div className='app-share'>
       <Sidebar/>

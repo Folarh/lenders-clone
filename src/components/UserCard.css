@@ -1,0 +1,17 @@
+.user__card__info{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    background: white;
+    width: 100%;
+   
+}
+
+.user__card{
+    margin-top: 20px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    
+}
+

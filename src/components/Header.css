@@ -26,9 +26,11 @@
     
     }
 
+    
+
     .header-search{
         width: 50px !important;
-        background-color: #57bdcf; 
+        background-color:#39cdcc;
         border-left: 1px solid lightgray;
         color: white;
         
