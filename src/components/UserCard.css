@@ -1,17 +1,19 @@
-.user__card__info{
-    display: flex;
-    flex-direction: column;
-    padding: 20px;
-    background: white;
-    width: 100%;
-   
-}
 
 .user__card{
+   margin-bottom: 40px;
+    
+}
+
+.user__card__info{
     margin-top: 20px;
     height: 200px;
     display: flex;
+    justify-content: space-between;
     flex-direction: column;
-    
+    width: 200px;
+    height: 100px;
+    background: white;
+    text-align: center;
+    padding: 20px;
 }
 
